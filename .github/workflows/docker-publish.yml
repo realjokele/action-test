@@ -1,8 +1,8 @@
 name: Docker
 
-on:
-  push:
-    branches: [ "main" ]
+on: workflow_dispatch
+#  push:
+    # branches: [ "main" ]
 
 env:
   # Use docker.io for Docker Hub if empty
