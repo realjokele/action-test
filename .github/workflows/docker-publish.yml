@@ -24,4 +24,4 @@ jobs:
       - name: Push Docker image
         run: |
           docker tag jokele/itookapic:latest jokele/itookapic:latest
-          #docker push jokele/itookapic:latest
+          docker push jokele/itookapic:latest
