@@ -20,7 +20,7 @@ jobs:
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build Docker image
         run: |
-          docker build -t ${{ secrets.DOCKER_USERNAME }}/itookapic:latest .
+          docker build -t  jokele/itookapic:latest .
       - name: Push Docker image
         run: |
           docker tag itookapc:latest ${{ secrets.DOCKER_USERNAME }}/itookapic:latest
