@@ -23,5 +23,5 @@ jobs:
           docker build -t jokele/itookapic:latest .
       - name: Push Docker image
         run: |
-          docker tag jokele/itookapc:latest ${{ secrets.DOCKER_USERNAME }}/jokele/itookapic:latest
-          docker push ${{ secrets.DOCKER_USERNAME }}/jokele/itookapic:latest
+          docker tag jokele/itookapc:latest ${{ secrets.DOCKER_USERNAME }}/itookapic:latest
+          docker push ${{ secrets.DOCKER_USERNAME }}/itookapic:latest
